@@ -10,6 +10,11 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    private String description;
+    private int price;
+
     public String getName() {
         return name;
     }
@@ -42,8 +47,5 @@ public class Product {
         this.id = id;
     }
 
-    private int id;
-    private String name;
-    private String description;
-    private int price;
+
 }

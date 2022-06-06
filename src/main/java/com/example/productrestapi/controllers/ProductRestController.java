@@ -3,10 +3,7 @@ package com.example.productrestapi.controllers;
 import com.example.productrestapi.entities.Product;
 import com.example.productrestapi.repos.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -27,12 +24,12 @@ public class ProductRestController {
     }
 
     @RequestMapping(value="/products", method = RequestMethod.POST)
-    public Product createProduct(Product product){
+    public Product createProduct(@RequestBody Product product){
         return repository.save(product);
     }
 
     @RequestMapping(value="/products", method = RequestMethod.PUT)
-    public Product updateProduct(Product product){
+    public Product updateProduct(@RequestBody Product product){
         return repository.save(product);
     }
 
