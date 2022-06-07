@@ -1,0 +1,27 @@
+2022-06-07 14:38:02.063  INFO 14560 --- [main] c.e.p.ProductrestapiApplication          : Starting ProductrestapiApplication using Java 17.0.1 on PORT-ASN-133 with PID 14560 (C:\Users\clarence.rouvel\OneDrive - Acelys\Documents\GitHub\productrestapi\target\classes started by clarence.rouvel in C:\Users\clarence.rouvel\OneDrive - Acelys\Documents\GitHub\productrestapi)
+2022-06-07 14:38:02.066  INFO 14560 --- [main] c.e.p.ProductrestapiApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-06-07 14:38:02.832  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-07 14:38:02.884  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-06-07 14:38:03.309  INFO 14560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-07 14:38:03.316  INFO 14560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-07 14:38:03.316  INFO 14560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-07 14:38:03.468  INFO 14560 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2022-06-07 14:38:03.469  INFO 14560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1355 ms
+2022-06-07 14:38:03.681  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-07 14:38:04.190  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-07 14:38:04.233  INFO 14560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-07 14:38:04.266  INFO 14560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-07 14:38:04.372  INFO 14560 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-07 14:38:04.456  INFO 14560 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-07 14:38:04.866  INFO 14560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-07 14:38:04.876  INFO 14560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-07 14:38:05.173  WARN 14560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-07 14:38:05.681  INFO 14560 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-06-07 14:38:05.728  INFO 14560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
+2022-06-07 14:38:05.745  INFO 14560 --- [main] c.e.p.ProductrestapiApplication          : Started ProductrestapiApplication in 4.131 seconds (JVM running for 4.912)
+2022-06-07 14:38:06.197  INFO 14560 --- [RMI TCP Connection(1)-192.168.20.113] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-07 14:38:06.197  INFO 14560 --- [RMI TCP Connection(1)-192.168.20.113] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-07 14:38:06.200  INFO 14560 --- [RMI TCP Connection(1)-192.168.20.113] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-06-07 15:34:30.247  INFO 14560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-07 15:34:30.269  INFO 14560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-07 15:34:30.499  INFO 14560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
